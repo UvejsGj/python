@@ -57,3 +57,12 @@
 # x = 10
 # x = x + 3
 # x += 3 test
+
+# import math
+
+# print(round(2.6))
+# print(abs(-2.9))
+# print(math.ceil(1))
+
+x = input("x: ")
+y = x + 1
