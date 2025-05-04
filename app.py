@@ -68,3 +68,33 @@
 # y = int(x) + 1
 # print(f"x: {x}, y: {y}")
 
+# temperature = 69
+
+
+# if temperature == 69:
+#     print("💀🥀")
+# elif temperature > 30:
+#     print("hot day")
+# elif temperature < 30:
+#     print("cold day")
+# elif temperature == 30:
+#     print("average day")
+
+# age = 22
+
+# if age >= 18:
+#     mesasge = "Eligible"
+# else:
+#     mesasge ="not Eligible"
+
+# mesasge = "Eligible" if age >= 18 else "Not Eligible" 
+# print(mesasge)
+
+high_income = False
+good_credit = True
+student = False
+
+if (high_income or good_credit) and not student:
+    print("jeni per kredi")
+else:
+    print("nuk jeni per kredi")
