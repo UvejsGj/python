@@ -22,7 +22,7 @@
 
 # escape_sequences in python 
 # \"
-# \'
+# \' 
 # \\
 # \n
 
@@ -64,5 +64,7 @@
 # print(abs(-2.9))
 # print(math.ceil(1))
 
-x = input("x: ")
-y = x + 1
+# x = input("x: ")
+# y = int(x) + 1
+# print(f"x: {x}, y: {y}")
+
