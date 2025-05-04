@@ -90,11 +90,47 @@
 # mesasge = "Eligible" if age >= 18 else "Not Eligible" 
 # print(mesasge)
 
-high_income = False
-good_credit = True
-student = False
+# high_income = False
+# good_credit = True
+# student = False
 
-if (high_income or good_credit) and not student:
-    print("jeni per kredi")
-else:
-    print("nuk jeni per kredi")
+# if (high_income or good_credit) and not student:
+#     print("jeni per kredi")
+# else:
+#     print("nuk jeni per kredi")
+
+# age between 18 and 65
+
+# age = 22
+
+# if age >= 18 and age < 65:
+
+# if 18 <= age < 65:
+#     print("Eligible")
+
+# if 10 == "10":
+#     print("a")
+# elif "bag" > "apple" and "bag" > "bag":
+#     print("b")
+# else:
+#     print("c")
+
+# print("Sending a Message")
+# print("Sending a Message")
+# print("Sending a Message")
+# print("Sending a Message")
+
+# for number in range(1, 10, 2):
+#     print("Sending a goat", number, (number + 1) * ".")
+
+# successful = True
+
+successful = False
+
+for number in range(3):
+    print("Attempt")
+    if successful:
+        print("Successful")
+        break
+    else:
+        print("Attempted 3 times and failed")
