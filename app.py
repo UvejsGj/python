@@ -132,5 +132,6 @@ for number in range(3):
     if successful:
         print("Successful")
         break
-    else:
-        print("Attempted 3 times and failed")
+else:
+    print("Attempted 3 times and failed")
+        
