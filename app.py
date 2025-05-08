@@ -125,13 +125,29 @@
 
 # successful = True
 
-successful = False
+# successful = False
 
-for number in range(3):
-    print("Attempt")
-    if successful:
-        print("Successful")
-        break
-else:
-    print("Attempted 3 times and failed")
-        
+# for number in range(3):
+#     print("Attempt")
+#     if successful:
+#         print("Successful")
+#         break
+# else:
+#     print("Attempted 3 times and failed") 
+
+# for x in range(5):
+#     for y in range(3):
+#         print(f"({x}, {y})")
+
+# shopping_cart = "fdshkjfghdlskjgfh"
+
+# for item in shopping_cart:
+#     print(item)
+
+# if item > "5":
+#     print("wow")
+
+number = 100
+while number > 0:
+    print(number)
+    number //= 2
