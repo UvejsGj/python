@@ -201,7 +201,19 @@
 # file = open("context.txt", "w")
 # file.write(message)
 
-def greet(name):
-    print(f"Hi {name}")
+# def greet(name):
+#     print(f"Hi {name}")
 
-print(greet("Uvejs"))
+# print(greet("Uvejs"))
+
+# def increment(number, by=1):
+#      return number + by
+
+# print(increment(2, 5))
+
+
+def multiply(*numbers):
+    for number in numbers:
+        print(number)
+
+multiply(5, 5, 10, 20) 
