@@ -167,10 +167,17 @@
 #     if command.lower() == "quit":
 #         break
 
-number = 10
+# number = 10
 
-while number > 0:
+# while number > 0:
+#     if number % 2 == 0:
+#         print(number)
+#     number -= 1
+# print("we have 4 even numbers")
+
+count = 0 
+for number in range(1, 10):
     if number % 2 == 0:
+        count += 1
         print(number)
-    number -= 1
-print("we have 4 even numbers")
+print(f"We have {count} even numbers")
