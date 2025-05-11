@@ -175,9 +175,33 @@
 #     number -= 1
 # print("we have 4 even numbers")
 
-count = 0 
-for number in range(1, 10):
-    if number % 2 == 0:
-        count += 1
-        print(number)
-print(f"We have {count} even numbers")
+# count = 0 
+# for number in range(1, 10):
+#     if number % 2 == 0:
+#         count += 1
+#         print(number)
+# print(f"We have {count} even numbers")
+
+# people = 2
+
+# def greet(first_name, last_name):
+#     print(f"Hi {first_name} {last_name}")
+#     print(f"Welcome Aboard {first_name}")
+
+
+# greet("Uvejs", "Gjelaj")
+
+# def greet(name):
+#     print(f"Hi {name}")
+
+# def get_greeting(name):
+#    return f"Hi {name}"
+
+# message = get_greeting("Uvejs")
+# file = open("context.txt", "w")
+# file.write(message)
+
+def greet(name):
+    print(f"Hi {name}")
+
+print(greet("Uvejs"))
