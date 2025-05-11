@@ -147,7 +147,30 @@
 # if item > "5":
 #     print("wow")
 
-number = 100
+# number = 100
+# while number > 0:
+#     print(number)
+#     number //= 2
+
+# command = ""
+# while command != "quit"
+
+# while command.lower() != "quit":
+#     command = input(">")
+#     print("ECHO", command)
+#     if command.lower() == "quit":
+#         break
+
+# while True:
+#     command = input(">")
+#     print("ECHO", command)
+#     if command.lower() == "quit":
+#         break
+
+number = 10
+
 while number > 0:
-    print(number)
-    number //= 2
+    if number % 2 == 0:
+        print(number)
+    number -= 1
+print("we have 4 even numbers")
