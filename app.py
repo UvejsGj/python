@@ -212,8 +212,10 @@
 # print(increment(2, 5))
 
 
-def multiply(*numbers):
-    for number in numbers:
-        print(number)
+# def multiply(*numbers):
+#     total = 1
+#     for number in numbers:
+#         total *= number
+#     return total
 
-multiply(5, 5, 10, 20) 
+# print(multiply(2, 3, 4, 5))
