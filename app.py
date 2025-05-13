@@ -278,16 +278,18 @@
 try:
     age = int(input("Enter your age: "))
 
+    name = input("Name: ")
+
     def ticket():
         if age >= 1 and age <= 3:
             return "Free ticket"
         elif age >= 4 and age < 13:
-            return "10 dollas"
+            return f"🎟️ Ticket for: {name}\nAge: {age}\nPrice: $10" 
         elif age >= 13 and age < 60:
-            return "20 dollas"
+            return f"🎟️ Ticket for: {name}\nAge: {age}\nPrice: $20"
         elif age >= 60:
-            return "15 dollas"
-        elif age < -0:
+            return f"🎟️ Ticket for: {name}\nAge: {age}\nPrice: $15"
+        elif age < 0:
             return "cant be negative old"
         else:
             return("noage")
