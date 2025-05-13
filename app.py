@@ -219,3 +219,57 @@
 #     return total
 
 # print(multiply(2, 3, 4, 5))
+
+# age = 21
+# age = 17
+
+# try:
+#     age = int(input("Enter your age: "))
+#     print(door())
+# except:
+#     print("Invalid input.")
+
+# def scan():
+#     if age > 18:
+#         return("Access allowed")
+#     elif age < 18:                            #           my version 
+#         return("Access denied")
+#     else:
+#         return("not age")
+
+# def door():
+#     if scan() == "Access allowed":
+#         return("door open")
+#     elif scan() == "Access denied":
+#         return("door is closed")
+#     else:
+#         return("no door")
+
+# # def final():
+# #     if input() == int:
+# #         print(door())
+
+
+try:
+    age = int(input("Enter your age: "))
+
+    def scan():
+        if age > 18:
+            return "Access allowed"
+        elif age < 18:
+            return "Access denied"
+        else:
+            return "not age"
+
+    def door():
+        if scan() == "Access allowed":
+            return "door open"
+        elif scan() == "Access denied":
+            return "door is closed"
+        else:
+            return "no door"
+
+    print(door()) 
+
+except:
+    print("Invalid input.")
