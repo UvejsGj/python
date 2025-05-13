@@ -232,7 +232,7 @@
 # def scan():
 #     if age > 18:
 #         return("Access allowed")
-#     elif age < 18:                            #           my version 
+#     elif age < 18:                                # ignore function
 #         return("Access denied")
 #     else:
 #         return("not age")
@@ -250,26 +250,49 @@
 # #         print(door())
 
 
+# try:
+#     age = int(input("Enter your age: "))
+
+#     def scan():
+#         if age > 18:
+#             return "Access allowed"
+#         elif age < 18:
+#             return "Access denied"
+#         else:
+#             return "not age"
+
+#     def door():
+#         if scan() == "Access allowed":
+#             return "door open"
+#         elif scan() == "Access denied":
+#             return "door is closed"
+#         else:
+#             return "no door"
+
+#     print(door()) 
+
+# except:
+#     print("Invalid input.")
+
+
 try:
     age = int(input("Enter your age: "))
 
-    def scan():
-        if age > 18:
-            return "Access allowed"
-        elif age < 18:
-            return "Access denied"
+    def ticket():
+        if age >= 1 and age <= 3:
+            return "Free ticket"
+        elif age >= 4 and age < 13:
+            return "10 dollas"
+        elif age >= 13 and age < 60:
+            return "20 dollas"
+        elif age >= 60:
+            return "15 dollas"
+        elif age < -0:
+            return "cant be negative old"
         else:
-            return "not age"
+            return("noage")
 
-    def door():
-        if scan() == "Access allowed":
-            return "door open"
-        elif scan() == "Access denied":
-            return "door is closed"
-        else:
-            return "no door"
-
-    print(door()) 
+    print(ticket()) 
 
 except:
     print("Invalid input.")
